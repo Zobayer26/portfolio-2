@@ -1,0 +1,49 @@
+.qualification h1 {
+    font-size: 22px;
+}
+
+.qualifiction-container {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.qualification-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qualification-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qualification-left-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.qualification-right-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.qualification-description {
+    display: flex;
+    gap: 10px;
+}
+
+.qualification-description p {
+    text-align: justify;
+    max-width: 250px;
+}
+.qualification-description-icon{
+    color: #B415FF;
+}

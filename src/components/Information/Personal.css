@@ -1,0 +1,49 @@
+.personal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personal h1 {
+    font-size: 28px;
+}
+
+.personal p {
+    font-size: 18px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.language h1 {
+    font-size: 25px;
+}
+
+.language ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 10px;
+}
+
+.personal-info-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    font-size: 22px;
+}
+
+.personal-info-box-icon {
+    color: #b415ff ;
+}
