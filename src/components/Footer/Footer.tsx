@@ -1,6 +1,9 @@
 import './Footer.css'
 import user_icon from '../../assets/user_icon.svg'
 import underline from '../../assets/nav_underline.svg'
+import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+
+
 
 const Footer = () => {
   return (
@@ -28,9 +31,11 @@ const Footer = () => {
           © 2023 Zobayer Hossain . All rights reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>Terms & Condition</p>
-          <p>Privacy Policy</p>
-          <p>Connect with me</p>
+          <p>Follow me</p>
+          <a href='https://www.facebook.com/zobayerhossain.arif.35'><FaFacebook /></a>
+          <a href='https://www.linkedin.com/in/md-zobayer-hossain-899921220/'><FaLinkedin /></a>
+          <a href='https://github.com/Zobayer26'><FaGithub /></a>
+          <a href='https://www.facebook.com/zobayerhossain.arif.35'><FaInstagram /></a>
         </div>
       </div>
     </footer>

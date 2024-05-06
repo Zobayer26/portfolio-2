@@ -74,6 +74,10 @@
     left: 40%;
 }
 
+.project-container-box-icon a {
+    color: rgb(241, 42, 7);
+}
+
 .project-container-box:hover {
     .project-container-box-icon {
         display: flex;
@@ -81,7 +85,6 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        color: #323232;
     }
 
 }
