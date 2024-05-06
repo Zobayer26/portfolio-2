@@ -5,9 +5,9 @@ const Personal = () => {
 
   return (
     <div className="personal">
-      <h1>Unmatched Service Quality for over 1 year</h1>
-      <p>I specialize in crafting intuitive websites with cutting-edge technology,
-        delivering dynamic and engaging user experiences</p>
+      <h1>Providing unbeatable quality service for over a year on this project.</h1>
+      <p>I'm an expert at creating user-friendly websites using the latest tech,
+         ensuring visitors have exciting and easy-to-navigate experiences.</p>
       <div className='personal-info'>
         {Personal_info.map((info,index) =>(
             <div key={index} className='personal-info-box'>

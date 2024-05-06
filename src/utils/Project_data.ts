@@ -38,7 +38,7 @@ const project_data = [
         w_no:5,
         w_name:"Candy Crush",
         w_img:project5_img,
-        live:"https://github.com/Zobayer26/candy-crush",
+        live:"candy-crush-liard.vercel.app",
         github:"https://github.com/Zobayer26/candy-crush"
     },
     {
