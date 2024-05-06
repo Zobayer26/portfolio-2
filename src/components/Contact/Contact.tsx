@@ -6,7 +6,8 @@ import call_icon from '../../assets/call_icon.svg'
 import { FormEvent } from "react";
 
 const Contact = () => {
-  const onSubmit = async (event :FormEvent<HTMLFormElement>) => {
+
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
 
@@ -14,10 +15,10 @@ const Contact = () => {
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-    if(object.name ==='' || object.email === '' || object.message ===""){
+    if (object.name === '' || object.email === '' || object.message === "") {
       alert("Please Enter text")
     }
-    else{
+    else {
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -31,7 +32,7 @@ const Contact = () => {
         alert(res.message)
       }
     }
-    
+
   };
   return (
     <section id="contact">
@@ -67,9 +68,9 @@ const Contact = () => {
           <input type="text" placeholder="Enter Your name" name="name" required
           />
           <label htmlFor="">Your Email</label>
-          <input type="email" name="email" placeholder="Enter your email"  required/>
+          <input type="email" name="email" placeholder="Enter your email" required />
           <label htmlFor="">Write your message here</label>
-          <textarea name="message" placeholder="Enter your message" rows={8}  required  />
+          <textarea name="message" placeholder="Enter your message" rows={8} required />
           <button type="submit"
             className="contact-submit">Submit now</button>
         </form>

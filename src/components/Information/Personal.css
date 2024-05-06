@@ -29,12 +29,11 @@
 }
 
 .personal-info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100px;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
+
 
 .personal-info-box {
     display: flex;
@@ -46,4 +45,18 @@
 
 .personal-info-box-icon {
     color: #b415ff ;
+}
+
+@media(max-width:768px){
+
+    .personal-info{
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+    .language{
+        align-items: center;
+    }
+    .language ul{
+        text-align: center;
+    }
 }

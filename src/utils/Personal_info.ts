@@ -15,25 +15,25 @@ export const Personal_info = [
     },
     {
         id: 2,
-        icon: MdMailOutline,
-        info: "zobayerarif126@gmail.com"
-    },
-
-    {
-        id: 3,
-        icon: FaGraduationCap,
-        info: "Bachelor of Science in Computer Science and Engineering"
-    },
-    {
-        id: 4,
         icon: IoIosCall,
         info: "+8801982700664"
     },
     {
-        id: 5,
+        id: 3,
+        icon: MdMailOutline,
+        info: "zobayerarif126@gmail.com"
+    },
+    {
+        id: 4,
         icon: MdOutlineCalendarMonth,
         info: "Born on 15th July 2000"
     },
+    {
+        id: 5,
+        icon: FaGraduationCap,
+        info: "Bachelor of Science in Computer Science and Engineering"
+    },
+   
     {
         id: 6,
         icon: IoLocationSharp,

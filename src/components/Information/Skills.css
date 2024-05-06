@@ -55,3 +55,17 @@
 .skill-title h1 {
     font-size: 40px;
 }
+
+@media(max-width:768px) {
+    .about-skill {
+        gap: 10px;
+    }
+
+    .about-skill p {
+        font-size: 18px;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+
+}

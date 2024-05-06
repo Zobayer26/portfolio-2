@@ -50,3 +50,10 @@
 .qualification-description-icon{
     color: #B415FF;
 }
+
+@media(max-width:768px){
+    .qualifiction-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

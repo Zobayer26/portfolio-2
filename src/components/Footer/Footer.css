@@ -91,3 +91,21 @@
     margin-bottom: 50px;
 }
 
+.footer-bottom-right a {
+    color: #FFF;
+}
+
+@media(max-width:768px){
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction:column-reverse ;
+        margin-bottom: 40px;
+    }
+}

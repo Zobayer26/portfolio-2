@@ -100,6 +100,50 @@
 .about-right-top-button {
   background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
 }
-.about-right-top-button-no{
+
+.about-right-top-button-no {
   background: transparent;
+}
+
+@media(max-width:768px) {
+  #about {
+    gap: 80px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+.about-title{
+  margin: 0 auto;
+}
+  .about-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+
+  .about-title img {
+    width: 130px;
+    right: -20px;
+  }
+  .about-sections{
+    flex-direction: column;
+  }
+  .about-left{
+    display: none;
+  }
+  .about-right-top{
+    flex-direction: column;
+  }
+  .about-achievements{
+    justify-content: space-between;
+  }
+  .about-achivement{
+    gap: 10px;
+  }
+  .about-achivement h1{
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .about-achivement p{
+    text-align: center;
+    font-size:16px ;
+  }
 }
