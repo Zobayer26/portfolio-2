@@ -48,6 +48,27 @@ const project_data = [
         live:"css-mentor-five.vercel.app",
         github:"https://github.com/Zobayer26/css-mentor"
     },
+    {
+        w_no:4,
+        w_name:"RedStrore landing page",
+        w_img:project4_img,
+        live:"redstore-landing-page.vercel.app",
+        github:"https://github.com/Zobayer26/Redstore-landing-page"
+    },
+    {
+        w_no:5,
+        w_name:"Candy Crush",
+        w_img:project5_img,
+        live:"candy-crush-liard.vercel.app",
+        github:"https://github.com/Zobayer26/candy-crush"
+    },
+    {
+        w_no:6,
+        w_name:"Css mentor task",
+        w_img:project6_img,
+        live:"css-mentor-five.vercel.app",
+        github:"https://github.com/Zobayer26/css-mentor"
+    },
 ]
  
 export default project_data;
