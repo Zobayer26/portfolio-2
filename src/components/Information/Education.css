@@ -5,7 +5,7 @@
 .qualifiction-container {
     width: 600px;
     display: flex;
-    align-items: center;
+    align-items: start ;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -14,12 +14,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-basis: 50%;
 }
 
 .qualification-right {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-basis: 50%;
 }
 
 .qualification-left-title {
@@ -37,6 +39,7 @@
 
 .qualification-description {
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 

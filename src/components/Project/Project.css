@@ -62,3 +62,26 @@
     gap: 30px;
     transition: 0.6s;
 }
+
+.project-container-box {
+    position: relative;
+}
+
+.project-container-box-icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.project-container-box:hover {
+    .project-container-box-icon {
+        display: flex;
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: #323232;
+    }
+
+}

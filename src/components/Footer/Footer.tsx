@@ -28,8 +28,8 @@ const Footer = () => {
           © 2023 Zobayer Hossain . All rights reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>Terms & condition</p>
-          <p>privacy policy</p>
+          <p>Terms & Condition</p>
+          <p>Privacy Policy</p>
           <p>Connect with me</p>
         </div>
       </div>

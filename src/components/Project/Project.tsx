@@ -2,7 +2,8 @@ import './Project.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import project_data from '../../utils/Project_data'
 import arrow_icon from "../../assets/arrow_icon.svg"
-
+import { IoLink } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 
 const Project = () => {
     return (
@@ -14,8 +15,12 @@ const Project = () => {
             <div className='project-container'>
                 {
                     project_data.map((item) => (
-                        <div key={item.w_no}>
+                        <div key={item.w_no} className='project-container-box'>
                             <img src={item.w_img} alt='' />
+                            <div className='project-container-box-icon'>
+                                <a href={item.live}><IoLink  /></a>
+                                <a href={item.github}><FaGithub/></a>
+                            </div>
                         </div>
                     ))
                 }

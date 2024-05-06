@@ -10,7 +10,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
 
-    formData.append("access_key", "access key");
+    formData.append("access_key", "ACCESS_KEY");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -79,5 +79,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-//zobayerhossain.vercel.app
