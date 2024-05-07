@@ -119,16 +119,7 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px) {
-    #contact {
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
-    }
-
-    .contact-title {
-        margin: 0 auto;
-    }
+@media(max-width:992px) {
 
     .contact-title h1 {
         padding: 0;
@@ -169,13 +160,28 @@
         width: 100%;
         font-size: 20px;
     }
-    .contact-right textarea{
+
+    .contact-right textarea {
         width: 95%;
         font-size: 20px;
     }
-    .contact-submit{
+
+    .contact-submit {
         font-size: 20px;
         padding: 15px 40px;
+    }
+
+}
+
+@media(max-width:768px) {
+    #contact {
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .contact-title {
+        margin: 0 auto;
     }
 
 }

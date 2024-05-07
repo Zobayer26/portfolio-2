@@ -14,8 +14,7 @@ const Footer = () => {
             <h1>Z H</h1>
             <img src={underline} alt='' />
           </div>
-          <p>I'm a frontend developer from ,Bangladesh with 1 years  of experience of working </p>
-
+          <p>I'm a frontend developer from, Bangladesh with 1 years  of experience of working </p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">

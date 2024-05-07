@@ -88,6 +88,12 @@
     }
 
 }
+@media(max-width:992px){
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
 
 @media(max-width:768px) {
     #project {
@@ -111,10 +117,7 @@
         margin-right: -20px;
     }
 
-    .project-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
+    
 
     .project-container img {
         width: 100%;

@@ -12,8 +12,8 @@ const Hero = () => {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      };
-    
+    };
+
 
     return (
         <section id='home' className='hero'>
@@ -22,13 +22,13 @@ const Hero = () => {
                 <span>I'm Zobayer Hossain </span>, Frontend developer
             </h1>
             <p>
-            I'm a frontend developer from Bangladesh with 1 years  of experience of working
+                I'm a frontend developer from Bangladesh with 1 years  of experience of working
             </p>
             <div className="hero-action">
-                <div className="hero-connect">
-                <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me   </AnchorLink></div>
-                <div onClick={handleDownload}
-                className="hero-resume">Resume</div>
+                <AnchorLink className='anchor-link' offset={50} href='#contact'>
+                    <div className="hero-connect">Connect with me</div>
+                </AnchorLink>
+                <div onClick={handleDownload} className="hero-resume">Resume</div>
             </div>
         </section>
     )
