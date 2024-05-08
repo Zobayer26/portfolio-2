@@ -10,35 +10,35 @@ const project_data = [
         w_no:1,
         w_name:"Online Shopping and delivery system",
         w_img:project1_img,
-        live:"shopybuz.vercel.app",
+        live:"https://shopybuz.vercel.app/",
         github:"https://github.com/Zobayer26/e-commerce-app"
     },
     {
         w_no:2,
         w_name:"Foody Zone",
         w_img:project2_img,
-        live:"foody-zone-ivory.vercel.app",
+        live:"https://foody-zone-ivory.vercel.app/",
         github:"https://github.com/Zobayer26/Foody-Zone"
     },
     {
         w_no:3,
         w_name:"2048 Game",
         w_img:project3_img,
-        live:"2048-game-hazel.vercel.app",
+        live:"https://2048-game-hazel.vercel.app/",
         github:"https://github.com/Zobayer26/2048-Game"
     },
     {
         w_no:4,
         w_name:"RedStrore landing page",
         w_img:project4_img,
-        live:"redstore-landing-page.vercel.app",
+        live:"https://redstore-landing-page.vercel.app/",
         github:"https://github.com/Zobayer26/Redstore-landing-page"
     },
     {
         w_no:5,
         w_name:"Candy Crush",
         w_img:project5_img,
-        live:"candy-crush-liard.vercel.app",
+        live:"https://candy-crush-seven.vercel.app/",
         github:"https://github.com/Zobayer26/candy-crush"
     },
     {
@@ -49,21 +49,21 @@ const project_data = [
         github:"https://github.com/Zobayer26/css-mentor"
     },
     {
-        w_no:4,
+        w_no:7,
         w_name:"RedStrore landing page",
         w_img:project4_img,
         live:"redstore-landing-page.vercel.app",
         github:"https://github.com/Zobayer26/Redstore-landing-page"
     },
     {
-        w_no:5,
+        w_no:8,
         w_name:"Candy Crush",
         w_img:project5_img,
         live:"candy-crush-liard.vercel.app",
         github:"https://github.com/Zobayer26/candy-crush"
     },
     {
-        w_no:6,
+        w_no:9,
         w_name:"Css mentor task",
         w_img:project6_img,
         live:"css-mentor-five.vercel.app",
